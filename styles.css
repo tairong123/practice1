@@ -13,11 +13,12 @@ body{
 }
 
 .gallery img{
-    width:180px;
-    height: 130px;
+    width: 50%;
+    height: auto;
     margin: 5px;
-    position: relative;
+    max-width: 400px;
     transition: transform 0.3s ease-in-out; /* 平滑轉場效果 */
+    object-fit: contain;
 }
 
 .gallery img:hover {
