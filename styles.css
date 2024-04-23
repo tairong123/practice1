@@ -6,25 +6,17 @@ body{
     transition: transform 0.3s ease-in-out;
 }
 
-.gallery{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
 .gallery img{
-    width: 50%;
+    width:300px;
     height: auto;
     margin: 5px;
     max-width: 400px;
     transition: transform 0.3s ease-in-out; /* 平滑轉場效果 */
     object-fit: contain;
 }
-
 .gallery img:hover {
     transform: scale(1.1); /* 背景放大為原來的1.2倍 */
 }
-
 
 .gallery :hover{
     background-size: 100% 100%;
