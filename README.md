@@ -13,7 +13,7 @@
 修改
 ``` css
 .gallery img{
-    width:180px;
+    width:300px;
     height: auto;
     margin: 5px;
     max-width: 400px;
